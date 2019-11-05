@@ -10,20 +10,8 @@ const db = mysql.createConnection({
   database: `bamazon_db`
 })
 
-const displayProducts = () => {
-  //Display all Items In the Database
-  db.query(`SELECT * FROM products`, (e, data) => {
-    if (e) {
-      console.log(e)
-    }
-    console.log(data)
-  })
-}
-displayProducts()
-
-
+// Prompt user with two messages
 const promptCustomer = () => {
-  // Prompt user with two messages
   inquirer
     .prompt([
       {
@@ -46,4 +34,35 @@ const promptCustomer = () => {
       console.log(`Quantity: ${quantity}`)
     })
 }
-promptCustomer()
+
+
+//Display all Items In the Database
+const displayProducts = () => {
+  selectQuery = `SELECT * FROM products`
+  db.query(selectQuery, (e, data) => {
+    if (e) {
+      console.log(e)
+    }
+    console.log(`Products:`)
+    let str = ``
+    for (let i = 0; i < data.length; i++) {
+      str = ``
+      str += `Item ID: ` + data[i].item_id + `  - `
+      str += 'Product: ' + data[i].product_name + '  -  '
+      str += 'Department: ' + data[i].department_name + '  -  '
+      str += 'Price: $' + data[i].price + '\n'
+      console.log(str)
+    }
+    console.log(`___________________________________________________________________________________________`)
+  })
+  promptCustomer()
+}
+
+
+//Run the Application
+const runApp = () =>  {
+
+  displayProducts()
+
+}
+runApp()
