@@ -76,6 +76,7 @@ function bamazon() {
                 console.log(`Your total is $` + product.price * quantity)
                 console.log(`Your order has been placed!`)
 
+                db.end()
               })
             } else {
               console.log(`We're sorry, we are low in stock on your item`)
