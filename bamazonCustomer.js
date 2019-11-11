@@ -10,7 +10,7 @@ const db = mysql.createConnection({
   database: `bamazon_db`
 })
 
-
+//Bamazon Customer Start
 function bamazon() {
   //Select all items from the Database
   db.query(`SELECT * FROM products`, (e, data) => {
