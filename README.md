@@ -11,9 +11,9 @@ Allows the user to view the current inventory of store items. The user is then a
 
 <h3>ScreenShots Demo</h3>
 
-![image](https://user-images.githubusercontent.com/51764119/68610171-067c2600-046c-11ea-9384-8683ad328084.png)
+![bamazon1](https://user-images.githubusercontent.com/51764119/68611232-7c818c80-046e-11ea-911c-224d83052dfa.png)
+![bamazon2](https://user-images.githubusercontent.com/51764119/68611237-80151380-046e-11ea-97da-3feae3093c0d.png)
 
-![bamazon2](https://user-images.githubusercontent.com/51764119/68610364-6ecb0780-046c-11ea-94a1-3b3452cf096e.png)
 
 **DATABASE**
 
