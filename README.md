@@ -9,6 +9,11 @@ Allows the user to view the current inventory of store items. The user is then a
 > node bamazonCustomer.js
 
 
+<h3>ScreenShots Demo</h3>
+
+![image](https://user-images.githubusercontent.com/51764119/68610171-067c2600-046c-11ea-9384-8683ad328084.png)
+
+
 
 
 <h2>Technologies</h2>
