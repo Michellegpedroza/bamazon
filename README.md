@@ -15,6 +15,7 @@ Allows the user to view the current inventory of store items. The user is then a
 
 ![bamazon2](https://user-images.githubusercontent.com/51764119/68610364-6ecb0780-046c-11ea-94a1-3b3452cf096e.png)
 
+![database](https://user-images.githubusercontent.com/51764119/68610992-efd6ce80-046d-11ea-8ca8-7ff37eecf133.png)
 
 <h2>Technologies</h2>
 This application uses Node Modules: inquirer, mysql2
