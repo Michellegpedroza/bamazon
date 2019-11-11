@@ -13,7 +13,7 @@ Allows the user to view the current inventory of store items. The user is then a
 
 ![image](https://user-images.githubusercontent.com/51764119/68610171-067c2600-046c-11ea-9384-8683ad328084.png)
 
-
+![bamazon2](https://user-images.githubusercontent.com/51764119/68610364-6ecb0780-046c-11ea-94a1-3b3452cf096e.png)
 
 
 <h2>Technologies</h2>
