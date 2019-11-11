@@ -9,3 +9,10 @@ Allows the user to view the current inventory of store items. The user is then a
 > node bamazonCustomer.js
 
 
+
+
+<h2>Technologies</h2>
+This application uses Node Modules
+- inquirer
+- mysql2
+
